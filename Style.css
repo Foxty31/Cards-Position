@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    height: 100vh;
+    object-fit: cover;
+}
+
+section{   
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10vh;
+    border-radius: 8px;
+    height: 50vh;
+    margin: auto 5vh;
+    height: 30vh;
+}
+
+section .cards{
+    width: 30vh;
+    height: 30v;
+    margin: auto auto;
+    padding: 1vh;
+    font-size: 20px;
+    font-family: 'Vina Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+section .cards img{
+    width: 100%;
+}
+
+section .cards p{
+    color: #fff;
+    background-color: black;
+}   
+
+section .cards .circle{
+    margin: 10px 4vh;
+    z-index: -1;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 20vh;
+    height: 20vh;
+}
